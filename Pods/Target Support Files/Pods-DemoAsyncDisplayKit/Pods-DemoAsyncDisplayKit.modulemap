@@ -1,0 +1,6 @@
+framework module Pods_DemoAsyncDisplayKit {
+  umbrella header "Pods-DemoAsyncDisplayKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
