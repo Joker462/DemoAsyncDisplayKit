@@ -8,26 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		7C8EF4AFAD04246EB3C3584D /* Pods_DemoAsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025E6937AB3BFBC0CA75E27E /* Pods_DemoAsyncDisplayKit.framework */; };
+		CD3967961E1DF9D200EBFD3D /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3967951E1DF9D200EBFD3D /* RecipesViewController.swift */; };
+		CD3967981E1E225700EBFD3D /* RecipesDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3967971E1E225700EBFD3D /* RecipesDataProvider.swift */; };
+		CD39679A1E1E249700EBFD3D /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3967991E1E249700EBFD3D /* Recipe.swift */; };
+		CD39679C1E1E26E400EBFD3D /* RecipeCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD39679B1E1E26E400EBFD3D /* RecipeCellNode.swift */; };
+		CD8FB4A91E1E41A3007C768C /* ApplicationConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8FB4A81E1E41A3007C768C /* ApplicationConfigure.swift */; };
+		CD8FB4AB1E1E441F007C768C /* RecipeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8FB4AA1E1E441F007C768C /* RecipeDataManager.swift */; };
+		CD8FB4AD1E1E4713007C768C /* RecipeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8FB4AC1E1E4713007C768C /* RecipeInteractor.swift */; };
+		CD8FB4AF1E1E4723007C768C /* RecipeInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8FB4AE1E1E4723007C768C /* RecipeInteractorIO.swift */; };
+		CD8FB4B11E1E4DC3007C768C /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8FB4B01E1E4DC3007C768C /* RecipeService.swift */; };
+		CD8FB4B31E1E5D5B007C768C /* NSAttributedString+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8FB4B21E1E5D5B007C768C /* NSAttributedString+Additions.swift */; };
 		F377B3B71E1B64B1008BFBDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377B3B61E1B64B1008BFBDD /* AppDelegate.swift */; };
 		F377B3BE1E1B64B1008BFBDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F377B3BD1E1B64B1008BFBDD /* Assets.xcassets */; };
 		F377B3C11E1B64B1008BFBDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F377B3BF1E1B64B1008BFBDD /* LaunchScreen.storyboard */; };
-		F3EBAEB81E1B96D100BBF1E6 /* MeetupFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EBAEB71E1B96D100BBF1E6 /* MeetupFeedViewController.swift */; };
 		F3EBAEBA1E1BA0B400BBF1E6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EBAEB91E1BA0B400BBF1E6 /* Constants.swift */; };
-		F3EBAEBC1E1BA1D500BBF1E6 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EBAEBB1E1BA1D500BBF1E6 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		025E6937AB3BFBC0CA75E27E /* Pods_DemoAsyncDisplayKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoAsyncDisplayKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FE45C75765E3A75505E048 /* Pods-DemoAsyncDisplayKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAsyncDisplayKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoAsyncDisplayKit/Pods-DemoAsyncDisplayKit.release.xcconfig"; sourceTree = "<group>"; };
 		BCDDE6CFF0BB0EA0433627D3 /* Pods-DemoAsyncDisplayKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAsyncDisplayKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoAsyncDisplayKit/Pods-DemoAsyncDisplayKit.debug.xcconfig"; sourceTree = "<group>"; };
+		CD3967951E1DF9D200EBFD3D /* RecipesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
+		CD3967971E1E225700EBFD3D /* RecipesDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesDataProvider.swift; sourceTree = "<group>"; };
+		CD3967991E1E249700EBFD3D /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		CD39679B1E1E26E400EBFD3D /* RecipeCellNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCellNode.swift; sourceTree = "<group>"; };
+		CD8FB4A81E1E41A3007C768C /* ApplicationConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationConfigure.swift; sourceTree = "<group>"; };
+		CD8FB4AA1E1E441F007C768C /* RecipeDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDataManager.swift; sourceTree = "<group>"; };
+		CD8FB4AC1E1E4713007C768C /* RecipeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeInteractor.swift; sourceTree = "<group>"; };
+		CD8FB4AE1E1E4723007C768C /* RecipeInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeInteractorIO.swift; sourceTree = "<group>"; };
+		CD8FB4B01E1E4DC3007C768C /* RecipeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeService.swift; sourceTree = "<group>"; };
+		CD8FB4B21E1E5D5B007C768C /* NSAttributedString+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Additions.swift"; sourceTree = "<group>"; };
 		F377B3B31E1B64B1008BFBDD /* DemoAsyncDisplayKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAsyncDisplayKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F377B3B61E1B64B1008BFBDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F377B3BD1E1B64B1008BFBDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F377B3C01E1B64B1008BFBDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F377B3C21E1B64B1008BFBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3EBAEB71E1B96D100BBF1E6 /* MeetupFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetupFeedViewController.swift; sourceTree = "<group>"; };
 		F3EBAEB91E1BA0B400BBF1E6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		F3EBAEBB1E1BA1D500BBF1E6 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +99,18 @@
 				F377B3B61E1B64B1008BFBDD /* AppDelegate.swift */,
 				F377B3BD1E1B64B1008BFBDD /* Assets.xcassets */,
 				F377B3BF1E1B64B1008BFBDD /* LaunchScreen.storyboard */,
+				CD8FB4B21E1E5D5B007C768C /* NSAttributedString+Additions.swift */,
 				F377B3C21E1B64B1008BFBDD /* Info.plist */,
-				F3EBAEB71E1B96D100BBF1E6 /* MeetupFeedViewController.swift */,
 				F3EBAEB91E1BA0B400BBF1E6 /* Constants.swift */,
-				F3EBAEBB1E1BA1D500BBF1E6 /* Models.swift */,
+				CD3967951E1DF9D200EBFD3D /* RecipesViewController.swift */,
+				CD3967971E1E225700EBFD3D /* RecipesDataProvider.swift */,
+				CD3967991E1E249700EBFD3D /* Recipe.swift */,
+				CD39679B1E1E26E400EBFD3D /* RecipeCellNode.swift */,
+				CD8FB4A81E1E41A3007C768C /* ApplicationConfigure.swift */,
+				CD8FB4AA1E1E441F007C768C /* RecipeDataManager.swift */,
+				CD8FB4AC1E1E4713007C768C /* RecipeInteractor.swift */,
+				CD8FB4AE1E1E4723007C768C /* RecipeInteractorIO.swift */,
+				CD8FB4B01E1E4DC3007C768C /* RecipeService.swift */,
 			);
 			path = DemoAsyncDisplayKit;
 			sourceTree = "<group>";
@@ -214,10 +238,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3EBAEB81E1B96D100BBF1E6 /* MeetupFeedViewController.swift in Sources */,
+				CD3967981E1E225700EBFD3D /* RecipesDataProvider.swift in Sources */,
+				CD8FB4AD1E1E4713007C768C /* RecipeInteractor.swift in Sources */,
+				CD8FB4A91E1E41A3007C768C /* ApplicationConfigure.swift in Sources */,
+				CD8FB4B31E1E5D5B007C768C /* NSAttributedString+Additions.swift in Sources */,
+				CD39679A1E1E249700EBFD3D /* Recipe.swift in Sources */,
 				F377B3B71E1B64B1008BFBDD /* AppDelegate.swift in Sources */,
 				F3EBAEBA1E1BA0B400BBF1E6 /* Constants.swift in Sources */,
-				F3EBAEBC1E1BA1D500BBF1E6 /* Models.swift in Sources */,
+				CD39679C1E1E26E400EBFD3D /* RecipeCellNode.swift in Sources */,
+				CD8FB4B11E1E4DC3007C768C /* RecipeService.swift in Sources */,
+				CD3967961E1DF9D200EBFD3D /* RecipesViewController.swift in Sources */,
+				CD8FB4AF1E1E4723007C768C /* RecipeInteractorIO.swift in Sources */,
+				CD8FB4AB1E1E441F007C768C /* RecipeDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +365,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JPES8SV6LU;
 				INFOPLIST_FILE = DemoAsyncDisplayKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = joker.DemoAsyncDisplayKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -347,6 +380,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JPES8SV6LU;
 				INFOPLIST_FILE = DemoAsyncDisplayKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = joker.DemoAsyncDisplayKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";

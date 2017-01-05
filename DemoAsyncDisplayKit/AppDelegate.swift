@@ -12,15 +12,12 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let applicationConfiguration = ApplicationConfigure()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         let window = UIWindow(frame: UIScreen.main.bounds)
         window.backgroundColor = UIColor.white
-        
-        let feedVC  = MeetupFeedViewController()
-        let feedNavCtrl = UINavigationController(rootViewController: feedVC)
-        window.rootViewController  = feedNavCtrl
+        applicationConfiguration.installRootViewControllerIntoWindow(window)
         
         window.makeKeyAndVisible()
         self.window = window
