@@ -21,8 +21,8 @@ final class RecipesViewController: ASViewController<ASDisplayNode>, RecipeIntera
       _collectionNode = ASCollectionNode(collectionViewLayout: _flowlayout)
         super.init(node: _collectionNode)
         
-        _flowlayout.minimumLineSpacing = 10
-        _flowlayout.minimumInteritemSpacing = 10
+        _flowlayout.minimumLineSpacing = 1
+        _flowlayout.minimumInteritemSpacing = 1
         initUI()
         
     }

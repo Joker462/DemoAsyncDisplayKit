@@ -17,7 +17,7 @@
 		CD8FB4AD1E1E4713007C768C /* RecipeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8FB4AC1E1E4713007C768C /* RecipeInteractor.swift */; };
 		CD8FB4AF1E1E4723007C768C /* RecipeInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8FB4AE1E1E4723007C768C /* RecipeInteractorIO.swift */; };
 		CD8FB4B11E1E4DC3007C768C /* RecipeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8FB4B01E1E4DC3007C768C /* RecipeService.swift */; };
-		CD8FB4B31E1E5D5B007C768C /* NSAttributedString+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8FB4B21E1E5D5B007C768C /* NSAttributedString+Additions.swift */; };
+		CD8FB4B31E1E5D5B007C768C /* AttributedTextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8FB4B21E1E5D5B007C768C /* AttributedTextNode.swift */; };
 		F377B3B71E1B64B1008BFBDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F377B3B61E1B64B1008BFBDD /* AppDelegate.swift */; };
 		F377B3BE1E1B64B1008BFBDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F377B3BD1E1B64B1008BFBDD /* Assets.xcassets */; };
 		F377B3C11E1B64B1008BFBDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F377B3BF1E1B64B1008BFBDD /* LaunchScreen.storyboard */; };
@@ -37,7 +37,7 @@
 		CD8FB4AC1E1E4713007C768C /* RecipeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeInteractor.swift; sourceTree = "<group>"; };
 		CD8FB4AE1E1E4723007C768C /* RecipeInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeInteractorIO.swift; sourceTree = "<group>"; };
 		CD8FB4B01E1E4DC3007C768C /* RecipeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeService.swift; sourceTree = "<group>"; };
-		CD8FB4B21E1E5D5B007C768C /* NSAttributedString+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Additions.swift"; sourceTree = "<group>"; };
+		CD8FB4B21E1E5D5B007C768C /* AttributedTextNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedTextNode.swift; sourceTree = "<group>"; };
 		F377B3B31E1B64B1008BFBDD /* DemoAsyncDisplayKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAsyncDisplayKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F377B3B61E1B64B1008BFBDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F377B3BD1E1B64B1008BFBDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 				F377B3B61E1B64B1008BFBDD /* AppDelegate.swift */,
 				F377B3BD1E1B64B1008BFBDD /* Assets.xcassets */,
 				F377B3BF1E1B64B1008BFBDD /* LaunchScreen.storyboard */,
-				CD8FB4B21E1E5D5B007C768C /* NSAttributedString+Additions.swift */,
+				CD8FB4B21E1E5D5B007C768C /* AttributedTextNode.swift */,
 				F377B3C21E1B64B1008BFBDD /* Info.plist */,
 				F3EBAEB91E1BA0B400BBF1E6 /* Constants.swift */,
 				CD3967951E1DF9D200EBFD3D /* RecipesViewController.swift */,
@@ -241,7 +241,7 @@
 				CD3967981E1E225700EBFD3D /* RecipesDataProvider.swift in Sources */,
 				CD8FB4AD1E1E4713007C768C /* RecipeInteractor.swift in Sources */,
 				CD8FB4A91E1E41A3007C768C /* ApplicationConfigure.swift in Sources */,
-				CD8FB4B31E1E5D5B007C768C /* NSAttributedString+Additions.swift in Sources */,
+				CD8FB4B31E1E5D5B007C768C /* AttributedTextNode.swift in Sources */,
 				CD39679A1E1E249700EBFD3D /* Recipe.swift in Sources */,
 				F377B3B71E1B64B1008BFBDD /* AppDelegate.swift in Sources */,
 				F3EBAEBA1E1BA0B400BBF1E6 /* Constants.swift in Sources */,

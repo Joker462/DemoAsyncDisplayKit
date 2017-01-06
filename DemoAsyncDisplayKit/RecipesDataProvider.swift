@@ -25,6 +25,11 @@ final class RecipesDataProvider:NSObject, ASCollectionDataSource {
         return cellBlockNode
     }
     
+//    func collectionNode(_ collectionNode: ASCollectionNode, nodeForItemAt indexPath: IndexPath) -> ASCellNode {
+//        let recipe = _recipes![indexPath.row]
+//        return RecipeCellNode(recipe: recipe)
+//    }
+    
     func insertNewRecipesInCollectionView(_ recipes: [Recipe]) {
         _recipes = recipes
         
